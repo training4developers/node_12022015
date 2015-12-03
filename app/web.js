@@ -13,6 +13,7 @@ function web(config) {
 	app.use("/api", bodyParser.json());
 	app.use("/api", widgetRouter);
 
+
 	app.use(express.static(config.webServer.rootFolder));
 
 	return {
