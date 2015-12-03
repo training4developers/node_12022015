@@ -1,0 +1,6 @@
+{
+	"webServer": {
+		"port": 8090,
+		"rootFolder": "./app/www"
+	}
+}
